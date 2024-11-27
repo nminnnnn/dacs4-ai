@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+    font-family: "Exo";
+    font-size: 65px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Exo";
+    font-size: 25px;
+    margin-top: 10px;;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color:#b3b3b3; */
+    /* background-size: 65% 93%;
+    background-image: url("../static/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    /* background-size: auto; */
+    /* background-size: cover; */
+}
+
+#form_div {
+    margin-top: 10px;
+    /* background-color:#b3b3b3; */
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#form {
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+
+#results_div {
+    margin-top: 10px;
+    /* background-color: #b3b3b3; */
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+#image {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+}
+
+.form_button {
+    /* height: 15px;
+    width: 35px; */
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.contacts {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+    z-index: 1;
+    /* background-color: blue; */
+    /* margin-left: 5%; */
+    /* top: 0%; */
+    /* position: absolute; */
+    line-height: 5px;
+    /* font-size: 13px; */
+}
+
+input[type="submit"] {
+    width: 80px;
+    height:25px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+}
+
+.result_label {
+    font-size: 20px;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+
+#confidence_paragraph {
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#download_ios {
+    height: auto;
+    margin: 0 auto;
+    padding: 25px;
+    position: relative;
+}
