@@ -94,4 +94,4 @@ def classify_image():
     secundary_name=secundary_name, iNaturalist_link=iNaturalist_link, wikipedia_link=wikipedia_link)
 
 if __name__ == "__main__":
-    application.run()
+    application.run(debug=True)
